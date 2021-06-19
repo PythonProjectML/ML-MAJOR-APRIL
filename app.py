@@ -7,4 +7,4 @@ st.title('SPam Ham Classifier')
 ip = st.text_input("Enter the message")
 op = model.predict([ip])
 if st.button('Predict'):
-  st.title(op[0]) # to remove one dimension we put 0
+  st.title(op[0]) 
