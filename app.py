@@ -1,5 +1,3 @@
-
-# It is a magic command to create a .py file
 import streamlit as st
 import joblib
 model = joblib.load('spam-ham')
